@@ -7,7 +7,7 @@ export default function LandingPage() {
   const router = useRouter();
 
   const handleGetStarted = () => {
-    router.push("/summarize");
+    router.push("/generateSummary");
   };
 
   return (
@@ -46,6 +46,7 @@ export default function LandingPage() {
         >
           🚀 Get Started
         </Button>
+
       </div>
     </main>
   );
